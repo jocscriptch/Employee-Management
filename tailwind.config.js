@@ -10,12 +10,18 @@ module.exports = {
       fontFamily: {
         josefin_sans: ['var(--font-josefin_sans)'],
       },
+      gridTemplateColumns: {
+        sidebar: "300px auto",
+      }, 
+      gridTemplateRows: {
+        header: "64px auto",
+      },
       colors: {
         dark: "#353535",
         light: "#FFFFFF",
         primary: "#284B63",
         secondary: "#D9D9D9",
-        third: "3C6E71",
+        third: "#3C6E71",
       },
     },
   },
